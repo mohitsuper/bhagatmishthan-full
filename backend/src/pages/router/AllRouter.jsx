@@ -4,7 +4,6 @@ import Dashboard from '../Dashboard/Dashboard'
 import Topbar from '../Topbar/Topbar'
 import Singin from '../User/Singin'
 import Best_Seller_product from '../Best-Seller-product/Best_Seller_product'
-import Gifting_product from '../Gifting-Product/gifting_product'
 import Management_products from '../management_products/Management_products'
 import Banner from '../banner/Banner'
 import Category from '../category/Category'
@@ -16,7 +15,6 @@ export default function AllRouter() {
       <Route path="/topbar" element={<Topbar/>}/>
       <Route path="/users" element={<Singin/>}/>
       <Route path="/best-seller-product" element={<Best_Seller_product/>}/>
-      <Route path="/gifting-product" element={<Gifting_product/>}/>
       <Route path="/product-type" element={<ProductType/>}/>
       <Route path="/management-products" element={<Management_products/>}/>
       <Route path="/orders" element={<h1 className='text-3xl font-bold text-center mt-20'>Orders Page</h1>}/>
