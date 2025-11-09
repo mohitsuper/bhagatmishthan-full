@@ -1,5 +1,6 @@
 const { default: mongoose } = require("mongoose");
 
+
 const cardschema = mongoose.Schema({
     name:String,
     price:String,
